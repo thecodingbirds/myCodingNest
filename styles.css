@@ -46,6 +46,7 @@
 }
 
 .navbar ul li {
+    float: left;
     display: block;
     text-align: center;
     min-width: 120px;
@@ -98,9 +99,11 @@ main {
 }
 
 img {
+    position: absolute;
+    top: 210px;
     margin-top: 80 px;
-    margin-left: 175px;
-    width: 700px;
+    margin-left: 150px;
+    width: 300px;
     filter: grayscale(1);
 }
 
